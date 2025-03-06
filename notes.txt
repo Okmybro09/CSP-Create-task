@@ -1,0 +1,3 @@
+a program that apply sales tax by state or even city
+
+an interpase that lists out the states and then asks for an input
