@@ -55,10 +55,14 @@ statesalestax = {
 
 
 def datagather():
-    print("hello what state are you in?")
-    print("the options are")
-    for key in statesalestax.keys():
-        print(key)
+    ifstates = input("are you in the united states? Y/N")
+    if ifstates == N:
+        print("this program is only applys to the unites states")
+    else:
+        print("hello what state are you in?")
+        print("the options are")
+        for key in statesalestax.keys():
+             print(key)
     stateinput = input("input state ")
     return stateinput
 #ugly but it works 
